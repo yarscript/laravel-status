@@ -18,5 +18,6 @@ class StatusServiceProvider extends ServiceProvider
     {
         $this->app->bind(StatusServiceContract::class, StatusService::class);
 
+        $this->mergeConfigFrom(__DIR__.'/../config/model-status.php', 'model-status');
     }
 }
