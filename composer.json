@@ -1,0 +1,21 @@
+{
+  "name": "yarscript/laravel-status",
+  "description": "Flexible status management",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Yaro Script",
+      "email": "yar.yason@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Yarscript\\Status\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.4|^8.0",
+    "laravel/framework": "^8.12"
+  }
+}
