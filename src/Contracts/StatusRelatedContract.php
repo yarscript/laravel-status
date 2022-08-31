@@ -10,4 +10,6 @@ interface StatusRelatedContract
     public function statuses(): MorphMany;
 
     public function updateStatus(string $status, ?Authenticatable $author);
+    
+    public function getStatusKey(): string;
 }
