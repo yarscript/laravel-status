@@ -1,10 +1,10 @@
 <?php
 
-namespace Lineup\Status\Providers;
+namespace Yarscript\Status\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Lineup\Status\Contracts\StatusServiceContract;
-use Lineup\Status\Services\StatusService;
+use Yarscript\Status\Contracts\StatusServiceContract;
+use Yarscript\Status\Services\StatusService;
 
 class StatusServiceProvider extends ServiceProvider
 {

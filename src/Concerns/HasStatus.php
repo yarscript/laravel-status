@@ -1,10 +1,10 @@
 <?php
 
-namespace Lineup\Status\Concerns;
+namespace Yarscript\Status\Concerns;
 
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
-use Lineup\Status\Models\Status;
+use Yarscript\Status\Models\Status;
 use Spatie\Permission\Exceptions\UnauthorizedException;
 
 /**
@@ -25,7 +25,7 @@ trait HasStatus
      * @param string                                          $status
      * @param \Illuminate\Contracts\Auth\Authenticatable|null $author
      *
-     * @return \Lineup\Status\Concerns\HasStatus
+     * @return \Yarscript\Status\Concerns\HasStatus
      * @throws \Throwable
      */
     public function updateStatus(string $status, ?Authenticatable $author): self

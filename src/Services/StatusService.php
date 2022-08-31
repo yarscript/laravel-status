@@ -1,10 +1,10 @@
 <?php
 
-namespace Lineup\Status\Services;
+namespace Yarscript\Status\Services;
 
 use Illuminate\Support\Facades\Auth;
-use Lineup\Status\Contracts\StatusRelatedContract;
-use Lineup\Status\Contracts\StatusServiceContract;
+use Yarscript\Status\Contracts\StatusRelatedContract;
+use Yarscript\Status\Contracts\StatusServiceContract;
 
 /**
  * Class StatusService
@@ -12,7 +12,7 @@ use Lineup\Status\Contracts\StatusServiceContract;
 class StatusService implements StatusServiceContract
 {
     /**
-     * @param \Lineup\Status\Contracts\StatusRelatedContract $related
+     * @param \Yarscript\Status\Contracts\StatusRelatedContract $related
      * @param string                                         $status
      *
      * @return mixed

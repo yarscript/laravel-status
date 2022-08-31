@@ -1,6 +1,6 @@
 <?php
 
-namespace Lineup\Status\Contracts;
+namespace Yarscript\Status\Contracts;
 
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Relations\MorphMany;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Lineup\Status\Contracts;
+namespace Yarscript\Status\Contracts;
 
 interface StatusServiceContract
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Lineup\Status\Concerns;
+namespace Yarscript\Status\Concerns;
 
 trait StatusContributor
 {
